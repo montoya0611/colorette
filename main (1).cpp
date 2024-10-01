@@ -308,7 +308,7 @@ void tomarFila() {
         }
     }
 
-    // Mostrar colores disponibles con su cantidad
+    // Mostrar colores disponibles con su cantidad *
     cout << "Colores disponibles y cantidades:" << endl;
     for (const auto& par : conteoColores) {
         cout << par.first << ": " << par.second << endl;
